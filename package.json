@@ -1,0 +1,25 @@
+{
+  "name": "qsafe",
+  "version": "1.0.0",
+  "description": "A QSafe website",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solarions1/QSafe.git"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "app",
+    "qsafe"
+  ],
+  "author": "Manuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Solarions1/QSafe/issues"
+  },
+  "homepage": "https://github.com/Solarions1/QSafe#readme"
+}
