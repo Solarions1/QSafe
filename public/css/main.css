@@ -1,4 +1,4 @@
-body {
+/*body {
 	background: url('../img/bg.jpg');
 	background-position: center;
 	font-family: "Raleway", sans-serif;
@@ -137,4 +137,342 @@ footer {
   width: 100%;
   height: 40px;
   color: white;
+}
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    border:0
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;;
+    background-color: #0075E2;
+    color: #FFFFFF;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+}
+
+/********
+HEADER
+********/
+
+#header {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 0.3em;
+}
+
+.logo {
+    width: 60vw;
+    padding-left: 4em;
+    float: left;
+    margin-right: 15px;
+}
+
+#header-img {
+    max-width: 3.2em;
+    float: left;
+    margin-right: 15
+}
+
+#nav-bar {
+    width: 40vw;
+}
+
+#nav-bar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-bar li {
+    list-style: none;
+}
+
+#nav-bar .li-pd {
+    padding-right: 4em;
+}
+
+#nav-bar li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#nav-bar li a:hover {
+    border-bottom: 1px solid #FFFFFF;
+    background-color: white;
+    color: black;
+    border-radius: 4%;
+}
+
+/********
+STARTED
+********/
+
+#started {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 17em;
+    margin-top: 50px;
+}
+
+#started #form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.1em;
+}
+
+#started #form #email {
+    width: 15em;
+    margin-bottom: 1.1em;
+    padding: 0.8em;
+}
+
+#started #form #email:focus {
+    outline: none !important;
+    border: 2px solid#003363;
+}
+
+#started #form #submit {
+    background-color: #003363;
+    color: white;
+    text-transform: uppercase;
+    width: 9.5em;
+    padding: 7px 7px;
+}
+
+#started #form #submit:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #003363;
+    border: 2px solid#003363;
+}
+
+/*********
+FEATURES
+*********/
+
+#features {
+    margin: 0 auto;
+    width: 560px;
+    max-width: 100%;
+}
+
+.features-example {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2.2em;
+}
+
+.features-example .example-icon {
+    margin-right: 2em;
+}
+
+.features-example .example-text h2 {
+    font-size: 1.5em;
+}
+
+.features-example .example-text p {
+    font-size: 1em;
+}
+
+.fas {
+    font-size: 3em;
+    color: #003363;
+}
+
+.feature-video {
+    margin-top: 3em;
+}
+
+
+
+/**********
+PLANS
+**********/
+
+#premium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.plans-grid {
+    display: flex;
+    flex-direction: row;
+}
+
+#premium h2 {
+    font-size: 2.5em;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15em;
+    margin-top: 2em;
+    padding: 1.5em;
+    background-color: white;
+    box-shadow: 0px 0px 18px -3px #000000;
+}
+
+.middle-plan {
+    background-color: #1E4263;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.plan h3 {
+    color: black;
+    font-weight: 800;
+    font-size: 2em;
+    margin-bottom: 0.7em;
+}
+
+.plan .plan-price {
+    color: black;
+    font-weight: 800;
+    font-size: 1.6em;
+}
+
+.plan .plan-month {
+    color: rgb(102, 99, 99);
+    font-weight: 600;
+}
+
+.benefits-list {
+    list-style: none;
+}
+
+.benefits-li {
+    display: flex;
+    margin: 1.5em 0 1.5em 0;
+}
+
+.benefit-icon i {
+    font-size: 1.2em;
+}
+
+.benefit-text {
+    margin-left: 0.6em;
+    color: rgb(102, 99, 99);
+}
+
+.checked {
+    margin-left: 0.3em;
+    color: rgb(34, 34, 34);
+    font-weight: 700;
+}
+
+.plan-btn {
+    padding: 14px 30px;
+    border-radius: 35px;
+    margin-bottom: 1em;
+    background-color: #00F05C;
+    color: white;
+    font-weight: 800;
+}
+
+.plan-btn:hover {
+    cursor: pointer;
+    width: 160px;
+}
+
+.plan-info {
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.middle-plan h3, .middle-plan .plan-price, .middle-plan .plan-month, .middle-plan .benefits-list .benefits-li .benefit-icon i, .middle-plan .benefits-li .benefit-text, .middle-plan .plan-info {
+    color: white;
+}
+
+
+/**********
+MEDIA QUERY
+**********/
+
+@media (max-width: 954px) {
+    .plan {
+        width: 10em;
+    }
+}
+
+@media (max-width: 925px) {
+    #nav-bar li {
+        padding-right: 1em;
+    }
+}
+
+@media (max-width: 804px) {
+    #nav-bar .li-pd {
+        padding-right: 0.8em;
+    }
+}
+
+@media (max-width: 740px) {
+    #premium {
+        justify-content: center;
+    }
+    .plans-grid {
+        flex-direction: column;
+    }
+    .middle-plan {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    #header {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    #header #nav-bar {
+        padding-top: 1.5em;
+    }
+}
+
+@media (max-width: 527px) {
+    #header #nav-bar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    #nav-bar ul li {
+        padding-top: 1.4em;
+    }
+    #features {
+        width: 350px;
+    } 
+}
+
+@media (max-width: 360px) {
+    .example-icon {
+        display: none !important;
+    }
+    .example-text h2, .example-text p {
+        text-align: center;
+    }
 }
