@@ -1,4 +1,8 @@
 var text = "" // tu texto
+            
+              
+
+
             var speed = 80 // velocidad de movimiento 
 
 
@@ -65,4 +69,20 @@ function addLocalStorage() {
     var email = document.getElementById("email").value;
     localStorage.setItem('email', email)
 }
+function loadDomain() {
+        var display = document.getElementById("display-domain");
+        display.innerHTML = document.domain;
+    }
 
+
+function mstime(){
+      var start = Date.now();
+             
+            // Lo que queremos medir
+            var a = new Array(10000000);
+            for (var n = 0; n < a.length; n++) {
+                a[n] = n * n;
+            }
+            var end = Date.now();
+            console.log( start - end);
+}

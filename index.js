@@ -36,10 +36,13 @@ passport.serializeUser(function (user, done) {
 
 passport.deserializeUser(function(id, done){
 	done(null, {id: 1, name: "Manuel"});
-});
+});*/
+
+
 
 
 app.set('view engine', 'ejs');
+app.use(express.static('public'));
 
 app.get('/test', (req,res)=>{
 	res.render('homepage');
@@ -49,27 +52,11 @@ app.get("/login", (req, res)=>{
 	res.render("login");
 });
 
-app.post("/login", passport.use(function(username, password, done){
-	successRedirect: "/"
-}));*/
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-app.get("login",(req,res)=>{
-	res.render("login");
-});
-app.use(express.static('public'));
 
 app.listen(port, ()=>{ 
 	console.log('Server running on port '+ port);
