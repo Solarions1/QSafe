@@ -37,19 +37,19 @@ This project, in its client part is designed under [Nodejs](https://nodejs.org/)
 ## To run this web service run the following command line
 
 #### IN WINDOWS
-   - git clone https://github.com/Solarions1/QSafe
-   - cd (Extracting directory) 
-   - npm install dependences
-   - npm install nodemon 
-   - node index.js
+    git clone https://github.com/Solarions1/QSafe
+    cd (Extracting directory) 
+    npm install dependences
+    npm install nodemon 
+    node index.js
 
 #### Manual install 
-   - npm install express
-   - npm install socketio
-   - npm install nodemon
-   - npm install http
-   - npm install cookieparser
-   - npm install express-session
+    npm install express
+    npm install socketio
+    npm install nodemon
+    npm install http
+    npm install cookieparser
+    npm install express-session
 
 
 ## To report bugs in the code please report [here](https://github.com/Solarions1/QSafe/issues)
