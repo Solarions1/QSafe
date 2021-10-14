@@ -4,7 +4,7 @@ const express = require('express');
 const passport = require('passport');
 const cookieParser = require('cookieparser');
 const session = require('express-session');
-const PassportLocal = require('passport-local').Strategy;
+//const PassportLocal = require('passport-local').Strategy;
 
 
 const app = express();

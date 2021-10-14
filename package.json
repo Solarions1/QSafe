@@ -24,6 +24,8 @@
   "homepage": "https://github.com/Solarions1/QSafe#readme",
   "dependencies": {
     "cookieparser": "^0.1.0",
-    "express-session": "^1.17.2"
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "passport": "^0.5.0"
   }
 }
