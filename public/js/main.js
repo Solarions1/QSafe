@@ -86,3 +86,9 @@ function mstime(){
             var end = Date.now();
             console.log( start - end);
 }
+
+
+function statuspage(){
+    window.loation.href="https://qsafecybersecurity.instatus.com/";
+    
+}
