@@ -14,6 +14,9 @@ This project is designed to work in conjunction with the following platforms:
  3. [Amazon web services AWS](https://aws.amazon.com/)
  4. [Microsoft Azure](https://azure.microsoft.com/)
 
+### System status
+[System](https://qsafecybersecurity.instatus.com/)
+
 
 
 ## What is QSafe looking for?
