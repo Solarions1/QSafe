@@ -92,3 +92,21 @@ function statuspage(){
     window.loation.href="https://qsafecybersecurity.instatus.com/";
     
 }
+
+// ONLY TEST GIT
+function openload(){
+    var cookie = navigator.cookieEnabled;
+    document.getElementById('check').innerHTML="Check your browser";
+    document.getElementById('check2').innerHTML="passing";
+    document.getElementById('check3').innerHTML="passing";
+    
+
+    if (cookie == true){
+        document.getElementById('check4').innerHTML="passing";
+        window.location.href="https://solarions1.github.io/QSafe/public/index.html";
+        document.body.style.backgroundColor = "green";
+    }else{
+        document.body.style.backgroundColor = "Red";
+        document.getElementById('resul').innerHTML="Error"
+    }
+}
