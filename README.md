@@ -16,7 +16,7 @@ This project is designed to work in conjunction with the following platforms:
 
 ### System status
 [System](https://qsafecybersecurity.instatus.com/)
-![](https://qsafecybersecurity.instatus.com/embed-status/dark-sm)
+![!](https://qsafecybersecurity.instatus.com/embed-status/dark-sm)
 
 
 
