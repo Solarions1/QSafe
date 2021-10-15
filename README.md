@@ -16,8 +16,8 @@ This project is designed to work in conjunction with the following platforms:
 
 ### System status
 [System](https://qsafecybersecurity.instatus.com/)
+![](https://qsafecybersecurity.instatus.com/embed-status/dark-sm)
 
-<iframe src="https://qsafecybersecurity.instatus.com/embed-status/dark-sm" width="230" height="61" frameBorder="0" scrolling="no" style="border: none;"></iframe>
 
 
 ## What is QSafe looking for?
